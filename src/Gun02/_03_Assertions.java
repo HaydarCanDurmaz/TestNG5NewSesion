@@ -27,7 +27,7 @@ public class _03_Assertions {
         int s1 = 41;
         int s2 = 40;
 
-        Assert.assertTrue(s1== s2, "Oluşan ve Beklenen eşit olmadı");
+        Assert.assertTrue(s1 == s2, "Oluşan ve Beklenen eşit olmadı");
 
     }
     @Test

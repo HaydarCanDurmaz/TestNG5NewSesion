@@ -1,6 +1,6 @@
 package Gun02;
 
-import Utlity.MyFunc;
+import Utlity.Tools;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -43,7 +43,7 @@ public class _01_Enable {
     @AfterClass
     void bitisIslemleri(){
         System.out.println("Bitiş İşlemleri yapılıyor...");
-        MyFunc.Bekle(5);
+        Tools.Bekle(5);
         driver.quit();
 
     }
