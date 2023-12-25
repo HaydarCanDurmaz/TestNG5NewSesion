@@ -15,7 +15,7 @@ public class BaseDriver {
     public static WebDriver driver;
 
     @BeforeClass
-    void BaslangicIslemleri() {
+   public void BaslangicIslemleri() {
         System.out.println(" Başlangıç İşlemleri Başladı...");
         Logger logger = Logger.getLogger(""); // output yapılan logları al.
         logger.setLevel(Level.SEVERE); // sadece ERROR ları göster
@@ -28,7 +28,7 @@ public class BaseDriver {
     }
 
     @AfterClass
-    void bitisIslemleri() {
+    public  void bitisIslemleri() {
         System.out.println("Bitiş İşlemleri yapılıyor...");
         MyFunc.Bekle(5);
         driver.quit();
