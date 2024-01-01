@@ -5,7 +5,6 @@ import org.testng.annotations.Test;
 
 public class _02_DataProvider {
 
-
     /**
      * Aşağıdaki ikili ile Dataproviderın içindeki bütün veriler tek tek test e gönderilerek
      * data sayısı kadar test çalıştırılır, dataların olduğu yere DataProvider annottion ı konur.
@@ -35,13 +34,12 @@ public class _02_DataProvider {
     }
 
     @DataProvider // bu metoda dataprovider görevi verildi.
-    public Object[] datalarim1() // DataProvider olarak kullanılcak metodun tipi Object olmak zorunda.
+    Object[] datalarim1() // DataProvider olarak kullanılcak metodun tipi Object olmak zorunda.
     {
-        Object[] userlar = {1, 2, 3, 4};
+        Object[] userlar={1,2,3,4};
+
+        return userlar;
+    }
 
 
-            return userlar;
-
-
-
-    }}
+}
