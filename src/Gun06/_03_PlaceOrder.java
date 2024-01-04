@@ -12,7 +12,7 @@ public class _03_PlaceOrder extends BaseDriver {
     void Test(){
         _04_PlaceOrderElements elements = new _04_PlaceOrderElements();
 
-        elements.searchInput.sendKeys("ıpod");
+        elements.searchInput.sendKeys("samsung");
         elements.searchButton.click();
         elements.addToChart.click();
         elements.shoppingChart.click();
