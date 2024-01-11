@@ -1,0 +1,21 @@
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test  name="Mentoring Test">
+
+        <groups>
+            <run>
+                <include name="Smoke">
+                    <classes>
+                        <class name="MentoringTestNG._05_XML">
+
+                        </class>
+                    </classes>
+
+                </include></run>
+
+
+        </groups>
+
+    </test>
+</suite>

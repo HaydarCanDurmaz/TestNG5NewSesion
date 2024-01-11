@@ -1,0 +1,13 @@
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test  name="Mentoring Test">
+        <classes>
+            <class name="MentoringTestNG._05_XML">
+                <methods>
+                    <include name="Test2"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
